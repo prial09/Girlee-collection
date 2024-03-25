@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">  
+    <meta name="description" content="Girlee Collection - Elevate your wardrobe with our curated collection of fashion-forward clothing. Explore the latest trends and impeccable quality.">
+    <meta name="keywords" content="Girlee Collection, fashion, clothing, style, trends">
+    <meta name="st10152042" content="prisca mudimbi">
+    <title>Girlee Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<style>
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align:center;
+    color: #5fc3e4;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+}
+h3{  
+    text-align:center
+}
+
+
+</style>
+</head>
+<body>
+  
+    <header>
+        <h1>GIRLEE COLLECTION</h1>
+     </header>
+     <nav>
+       <ul>
+         <a href="home.html"><li>Home</li></a>
+         <a href="about.html"><li>About</li></a>
+         <a href="service.html"><li>Services</li></a>
+         <a href="contact.html"><li>Contact</li></a>
+         <a href="gallery.html"><li>Gallery</li></a>
+       </ul>
+        <div class="handle">Menu</div>
+     </nav>    
+       <section>
+        <p>
+            <img src="images/cnt.png" width="100%" height="0%">
+            <br>
+            Here is all our contact details and also we have a form for you below to fill in just incase there is anything you would like to enquire. This way we can also 
+            add you to our database and we can send you notification once we get new stock. We believe in having a greate relationship with all our customers.
+            Thank you
+        </p>
+        <br>
+        <br>
+
+        <h1>Contact us Now </h1>
+        <p>Fill the form below</p>
+    <form action="">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" required><br><br>
+      <label for="fname">Surname:</label>
+      <input type="text" id="Surname" name="Surname"required><br><br>
+      <label for="fname">Email:</label>
+      <input type="text" id="Email" name="Email"required><br><br>
+      <label for="lname">Cell number:</label>
+      <input type="text" id="cellN" name="cellN"required><br><br>
+      <input type="submit" value="Submit">
+      <input type="submit" formaction="" value="Cancel">
+    </form>
+    <br><br>
+       </section>
+       <script>
+        $('.handle').on('click', function() {
+        $('nav ul').toggleClass('showing')
+        });
+       </script>
+       <footer>
+        <p><a href="https://instagram.com/girlee.collection?igshid=OGQ5ZDc2ODk2ZA==">Girlee Collection @2023</a></p>
+      </footer>
+</body>
+</html> 
